@@ -1,0 +1,20 @@
+.nave {
+background-color: blanchedalmond;
+border-radius: 3px;
+list-style-type: none ;
+overflow: auto;
+}
+ .nave li { 
+    float: left;
+ }
+
+ .icon {
+ display: block;   
+padding:0px 3px 3px 3px ;
+margin: 10px;
+color: red;
+ } 
+ .nave li a:hover {
+    background-color: black;
+    color: blueviolet;
+ }

@@ -3,37 +3,55 @@ background-color: blanchedalmond;
 border-radius: 3px;
 list-style-type: none ;
 overflow: auto;
-}
- .nave li { 
-    float: left;
  }
 
- .icon {
+.nave li {
+    float: left; 
+    }
+
+.icon {
  display: block;   
 padding:0px 3px 3px 3px ;
 margin: 10px;
 color: red;
- } 
- .nave li a:hover {
+   } 
+
+.nave li a:hover {
     background-color: black;
-    color: blueviolet;
- }
+    color: blueviolet; 
+    }
 
- .mainp {
-margin: 0px;
- }
+.mainp {
+    margin: 0px;
+    }
 
- .p {
+.p {
     display: block;
     padding: 2px;
     margin: 0px;
-    
- }
- body{
+    }
+body{   
     cursor: 1000px;
- }
+    }
 
- .list-style{
-list-style:url("https://apod.nasa.gov/apod/image/2302/SunHalphaC_Ergun_2065.jpg") inside ;
+.list-style{
+list-style:/*url("https://apod.nasa.gov/apod/image/2302/SunHalphaC_Ergun_2065.jpg")*/ inside ;}
 
- }
+.table {
+color: aliceblue;
+border: 1px solid red;
+padding: 10px;
+margin: 22px 304px 22px 304px;
+background-color: cadetblue;
+border-spacing: 4px ;
+}
+.table td{
+    color: red;
+    padding: 10px;
+    background-color: #eee;
+}
+.table thead th{
+    background-color: bisque;
+    color: black;
+    
+}

@@ -18,3 +18,22 @@ color: red;
     background-color: black;
     color: blueviolet;
  }
+
+ .mainp {
+margin: 0px;
+ }
+
+ .p {
+    display: block;
+    padding: 2px;
+    margin: 0px;
+    
+ }
+ body{
+    cursor: 1000px;
+ }
+
+ .list-style{
+list-style:url("https://apod.nasa.gov/apod/image/2302/SunHalphaC_Ergun_2065.jpg") inside ;
+
+ }
